@@ -1,71 +1,63 @@
-# Getting Started with Create React App
+# Calculadora de figuras geométricas planas
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Calculadora de figuras geométricas planas, feita para fins de estudo da biblioteca React.js. Ela calcula áreas como triângulo, quadrado, retângulo, dentre outros.
 
-## Available Scripts
 
-In the project directory, you can run:
+## 🚀 Instruções 
+Para que você veja o código do projeto funcionando em sua máquina, serão disponibilizadas algumas instruções no tópico 🔧 Como rodar o projeto? 
 
-### `yarn start`
+### 📋 Pré-requisitos
+Para isso, você irá precisar basicamente ter um editor de código em sua máquina (Visual Studio Code, Sublime Text, etc), um navegador para acesso (Google Chrome, Opera, Mozilla Firefox) e, para versionar o código, ter o Git instalado. Pode ser utilizado o prompt de comando de seu computador, da mesma forma. Além deles, será necessário ter o Node.js instalado e o gerenciador de pacotes NPM também.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Links úteis: 
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+VS Code: https://code.visualstudio.com/
 
-### `yarn test`
+Git: https://git-scm.com/
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Sublime Text: https://www.sublimetext.com/
 
-### `yarn build`
+NodeJS: https://nodejs.org/en/
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Npm: https://www.npmjs.com/
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 🔧 Como rodar o projeto? 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 1 - Primeiro faça o clone desse repositório com o comando: git clone https://github.com/Lucbm99/FigurasGeometricas-Calculadora.git, com o prompt de comando ou o Git Bash, em qualquer pasta de seu computador.
 
-### `yarn eject`
+## 2 - Após isso, deverá ser digitado no terminal na pasta de seu projeto, o comando npm install.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## 3 - Feita a instalação do npm, é necessário digitar o comando npm start, para abrir a aplicação, que estará disponível em http://localhost:3000 em seu computador.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![image](https://user-images.githubusercontent.com/45500959/118305231-0bd18b00-b4be-11eb-94bd-7b64d2326fa2.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+![image](https://user-images.githubusercontent.com/45500959/118305258-1429c600-b4be-11eb-9f80-e47a011de42e.png)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+## 📦 Status da aplicação
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+🚧  Finalizado 🚧
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Vídeo demo: https://youtu.be/i_vV-OoOzfg
 
-### Code Splitting
+Link para acesso: https://figuras-geometricas-calculadora-lucbm99.vercel.app/
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+## 🛠️ Feito com
+* [NodeJS](https://nodejs.org/en/)
+* [ReactJS](https://reactjs.org/docs/getting-started.html)
+* [Git](https://git-scm.com/downloads)
+* [NPM](https://www.npmjs.com/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## ✒️ Licença 
+Consulte o arquivo LICENSE.md, para maiores detalhes.
 
-### Making a Progressive Web App
+## ✒️ Autores
+Calculadora feita por mim - [Lucbm99](https://github.com/Lucbm99)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
+⌨️ com ❤️ por [Lucas Baradel](https://github.com/Lucbm99) 😊
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# FigurasGeometricas-Calculadora
