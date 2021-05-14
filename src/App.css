@@ -14,3 +14,11 @@
   display: flex;
   flex-wrap: wrap; 
 }
+button {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    padding: 10px;
+    border-radius: 10px; 
+    cursor: pointer;
+}

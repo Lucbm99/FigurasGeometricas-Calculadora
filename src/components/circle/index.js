@@ -1,7 +1,6 @@
 import React, {useState} from 'react'
 import Card from '../layout/Card.jsx';
 import { Button } from 'react-bootstrap';
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function Circle () {
     const [rayCircle, setRayCirle] = useState('');

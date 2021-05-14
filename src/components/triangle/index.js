@@ -29,7 +29,7 @@ export default function Triangle () {
               <label htmlFor="heightTriangle">Altura: </label>
               <input type="number" placeholder="Digite a altura..." value={heightTriangle} onChange={(e)=>setHeightTriangle(e.target.value)}></input><br/>
 
-            <Button variant="primary" onClick={calcAreaTriangle}>Calcular</Button>
+            <Button type="primary" onClick={calcAreaTriangle}>Calcular</Button>
         </Card>
     )
 }
