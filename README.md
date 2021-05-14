@@ -1,4 +1,4 @@
-# Calculadora Íde figuras geométricas planas
+# Calculadora de figuras geométricas planas
 
 Calculadora de figuras geométricas planas, feita para fins de estudo da biblioteca React.js. Ela calcula áreas como triângulo, quadrado, retângulo, dentre outros.
 
