@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+
 .App {
   display: flex;
   flex-direction: column;   
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Oxygen', sans-serif;
 }
 .App h1 {
   text-align: center;
@@ -16,7 +18,7 @@
   flex-wrap: wrap; 
 }
 input {
-  border-radius: 20px;
+  border-radius: 5px;
   outline: 0;
 }
 button {
