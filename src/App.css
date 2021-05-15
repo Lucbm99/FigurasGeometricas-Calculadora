@@ -1,6 +1,7 @@
 .App {
   display: flex;
   flex-direction: column;   
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 .App h1 {
   text-align: center;
@@ -13,6 +14,10 @@
 .Cards {
   display: flex;
   flex-wrap: wrap; 
+}
+input {
+  border-radius: 20px;
+  outline: 0;
 }
 button {
     color: #fff;
