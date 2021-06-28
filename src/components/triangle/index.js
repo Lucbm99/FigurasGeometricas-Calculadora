@@ -24,7 +24,7 @@ export default function Triangle () {
               <p>Calcule a área do Triângulo, fornecendo a base e a altura nos campos abaixo:</p> <br/>
 
               <label htmlFor="baseTriangle">Base: </label>
-              <input type="number" placeholder="Digite a base..."  value={baseTriangle} onChange={(e)=>setBaseTriangle(e.target.value)}></input>
+              <input type="number" placeholder="Digite a base..."  value={baseTriangle} onChange={(e)=>setBaseTriangle(e.target.value)}></input><br/>
               
               <label htmlFor="heightTriangle">Altura: </label>
               <input type="number" placeholder="Digite a altura..." value={heightTriangle} onChange={(e)=>setHeightTriangle(e.target.value)}></input><br/>

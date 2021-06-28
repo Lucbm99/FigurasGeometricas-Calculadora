@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 import Card from '../layout/Card.jsx';
 import { Button } from 'react-bootstrap';
 
-export default function Trapezio () {
+export default function Trapeze () {
     const [baseMoreTrapezio, setBaseMoreTrapezio] = useState('');
     const [baseLessTrapezio, setBaseLessTrapezio] = useState('');
     const [heightTrapezio, setHeightTrapezio] = useState('');
@@ -25,10 +25,10 @@ export default function Trapezio () {
         <p>Calcule a área do Trapézio, fornecendo as respectivas bases e a altura nos campos abaixo: </p><br/>
 
         <label htmlFor="baseMoreTrapezio">Base maior: </label>
-        <input type="number" placeholder="Digite a base..."  value={baseMoreTrapezio} onChange={(e)=>setBaseMoreTrapezio(e.target.value)}></input>
+        <input type="number" placeholder="Digite a base..."  value={baseMoreTrapezio} onChange={(e)=>setBaseMoreTrapezio(e.target.value)}></input><br/>
 
         <label htmlFor="baseLessTrapezio">Base menor: </label>
-        <input type="number" placeholder="Digite a base..."  value={baseLessTrapezio} onChange={(e)=>setBaseLessTrapezio(e.target.value)}></input>
+        <input type="number" placeholder="Digite a base..."  value={baseLessTrapezio} onChange={(e)=>setBaseLessTrapezio(e.target.value)}></input><br/>
 
         <label htmlFor="heightTrapezio">Altura: </label>
         <input type="number" placeholder="Digite a altura..." value={heightTrapezio} onChange={(e)=>setHeightTrapezio(e.target.value)}></input><br/>

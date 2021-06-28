@@ -24,7 +24,7 @@ export default function Rectangle () {
             <p>Calcule a área do Retângulo, fornecendo a base e a altura nos campos abaixo: </p><br/>
             
             <label htmlFor="baseRectangle">Base: </label>
-            <input type="number" placeholder="Digite a base..."  value={baseRectangle} onChange={(e)=>setBaseRectangle(e.target.value)}></input>
+            <input type="number" placeholder="Digite a base..."  value={baseRectangle} onChange={(e)=>setBaseRectangle(e.target.value)}></input><br/>
             
             <label htmlFor="heightRectangle">Altura: </label>
             <input type="number" placeholder="Digite a altura..." value={heightRectangle} onChange={(e)=>setHeightRectangle(e.target.value)}></input><br/>

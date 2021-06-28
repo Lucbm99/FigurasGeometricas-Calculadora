@@ -5,7 +5,7 @@ import Rectangle from './components/rectangle';
 import Circle from './components/circle';
 import Square from './components/square';
 import Triangle from './components/triangle';
-import Trapezio from './components/trapezio';
+import Trapeze from './components/trapeze';
 
 function App() {
   return (
@@ -21,7 +21,7 @@ function App() {
 
           <Rectangle />
 
-          <Trapezio />
+          <Trapeze />
 
           <Triangle />
       </div>
