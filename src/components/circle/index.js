@@ -25,7 +25,7 @@ export default function Circle () {
             <p>Calcule a área do Círculo, fornecendo a medida do raio abaixo: </p><br/>
         
             <label htmlFor="raio">Raio: </label>
-            <input type="number" placeholder="Raio..."  value={rayCircle} onChange={(e)=>setRayCirle(e.target.value)} required></input><br/>
+            <input type="number" placeholder="Digite o raio..."  value={rayCircle} onChange={(e)=>setRayCirle(e.target.value)} required></input><br/>
             
             <Button variant="primary" onClick={calcAreaCircle}>Calcular</Button>
       </Card>

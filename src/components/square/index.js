@@ -21,7 +21,7 @@ export default function Square () {
             <p>Calcule a área do Quadrado, fornecendo a medida do lado abaixo: </p><br/>
 
             <label htmlFor="baseSquare">Lado: </label>
-            <input type="number" placeholder="Lado..."  value={baseSquare} onChange={(e)=>setBaseSquare(e.target.value)} required></input><br/>
+            <input type="number" placeholder="Digite o valor do lado..."  value={baseSquare} onChange={(e)=>setBaseSquare(e.target.value)} required></input><br/>
             
             <Button variant="primary" onClick={calcAreaSquare}>Calcular</Button>
         </Card>

@@ -24,10 +24,10 @@ export default function Losangle () {
             <p>Calcule a área do Losango, fornecendo a medida das diagonais abaixo: </p><br/>
 
             <label htmlFor="diagonalMoreLosangle">Diagonal maior: </label>
-            <input type="number" placeholder="Diagonal maior..."  value={diagonalMoreLosangle} onChange={(e)=>setDiagonalMoreLosangle(e.target.value)} required></input><br/>
+            <input type="number" placeholder="Digite a diagonal maior..."  value={diagonalMoreLosangle} onChange={(e)=>setDiagonalMoreLosangle(e.target.value)} required></input><br/>
 
             <label htmlFor="diagonalLessLosangle">Diagonal menor: </label>
-            <input type="number" placeholder="Diagonal menor..."  value={diagonalLessLosangle}  onChange={(e)=>setDiagonalLessLosangle(e.target.value)} required></input><br/>
+            <input type="number" placeholder="Digite a diagonal menor..."  value={diagonalLessLosangle}  onChange={(e)=>setDiagonalLessLosangle(e.target.value)} required></input><br/>
             
             <Button variant="primary" onClick={calcAreaLosangle}>Calcular</Button>
         </Card>
