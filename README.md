@@ -29,9 +29,9 @@ Npm: https://www.npmjs.com/
 
 ## 3 - Feita a instalação do npm, é necessário digitar o comando npm start, para abrir a aplicação, que estará disponível em http://localhost:3000 em seu computador.
 
-![image](https://user-images.githubusercontent.com/45500959/118376649-b40b5080-b59f-11eb-8c4b-9241ad0c07ec.png)
+![image](https://user-images.githubusercontent.com/45500959/128951903-efdbb084-9eee-46cb-ba01-bce28079c376.png)
 
-![image](https://user-images.githubusercontent.com/45500959/118376655-bd94b880-b59f-11eb-855b-ee38b0264fe0.png)
+![image](https://user-images.githubusercontent.com/45500959/128951913-d2fb2e2d-d655-4c56-8c6b-f0b8e4a5d623.png)
 
 ## 📦 Status da aplicação
 
